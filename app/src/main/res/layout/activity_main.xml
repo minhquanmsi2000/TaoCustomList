@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        app:srcCompat="@drawable/anh1"
+        android:layout_marginTop="-28dp"/>
+
+    <TextView
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xu hướng"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*ĐANG ĐƯỢC QUAN TÂM"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="18dp"
+        />
+
+    <ListView
+        android:id="@+id/listQuantam"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="300dp" />
+    
+
+
+</RelativeLayout>
